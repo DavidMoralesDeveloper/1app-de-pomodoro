@@ -1,0 +1,70 @@
+body{
+    background-color: #14213d;
+
+}
+
+#app{
+
+    background-color: #fca311;
+    width: 500px;
+    margin: auto;
+    padding: 100px;
+    border: solid #e5e5e5;
+}
+
+#time, #value{
+    font-size: 50px;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+
+}
+
+input[type='text']{
+    background-color: #e5e5e5;
+    width: 300px;
+    padding: 10px;
+    
+
+}
+
+button, input[type='submit']{
+
+    background-color: #14213d;
+    height: 40px;
+    border: none;
+    color: #e5e5e5;
+    border-radius: 5px;
+}
+
+#task{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tasks{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.task .completed{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.done{
+    display: inline-block;
+    padding: 5px;
+    background-color: #e5e5e5;
+}
+
+
+
